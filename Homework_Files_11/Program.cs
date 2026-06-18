@@ -1,10 +1,14 @@
-﻿namespace Homework_Files_11
+﻿using Homework_Files_11.Task1;
+
+namespace Homework_Files_11
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            LineReader lineReader = new LineReader();
+
+            lineReader.ProcessFile();
         }
     }
 }
